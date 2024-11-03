@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.buoi1_and103_testfirebase"
+    namespace = "com.example.lab1_and103"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.buoi1_and103_testfirebase"
+        applicationId = "com.example.lab1_and103"
         minSdk = 33
         targetSdk = 34
         versionCode = 1
@@ -41,7 +41,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-auth")
-    implementation("com.google.firebase:firebase-firestore")
 }

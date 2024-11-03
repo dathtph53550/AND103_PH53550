@@ -1,4 +1,4 @@
-package com.example.buoi1_and103_testfirebase;
+package com.example.lab1_and103;
 
 import org.junit.Test;
 
