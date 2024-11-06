@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm User"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edtMa"
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/khung_edit"
+        android:hint="Nhap ma"
+        />
+
+    <EditText
+        android:id="@+id/edtTen"
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/khung_edit"
+
+        android:hint="Nhap ten"
+        />
+
+    <EditText
+        android:id="@+id/edtNamSinh"
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:background="@drawable/khung_edit"
+        android:layout_height="wrap_content"
+
+        android:hint="Nhap nam sinh"
+        />
+
+    <Button
+        android:id="@+id/btnThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Thêm"/>
+
+</LinearLayout>
